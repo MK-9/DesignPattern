@@ -1,8 +1,8 @@
-package com.example.designpatterns.app;
+package com.example.designpatterns.abstractfactory.app;
 
-import com.example.designpatterns.buttons.Button;
-import com.example.designpatterns.checkboxes.CheckBox;
-import com.example.designpatterns.factories.GUIFactory;
+import com.example.designpatterns.abstractfactory.buttons.Button;
+import com.example.designpatterns.abstractfactory.checkboxes.CheckBox;
+import com.example.designpatterns.abstractfactory.factories.GUIFactory;
 
 /**
  * Factory users don't care which concrete factory they use since they work with
