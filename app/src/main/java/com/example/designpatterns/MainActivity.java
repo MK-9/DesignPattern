@@ -4,11 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.designpatterns.abstractfactory.Demo;
-import com.example.designpatterns.abstractfactory.app.Application;
-import com.example.designpatterns.abstractfactory.factories.GUIFactory;
-import com.example.designpatterns.abstractfactory.factories.MacOSFactory;
-import com.example.designpatterns.abstractfactory.factories.WindowsFactory;
+import com.example.designpatterns.builder.Demo;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,8 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
 
-        Application application = Demo.configApplication();
-        application.paint();
+        //abstract factory pattern
+//        Application application = Demo.configApplication();
+//        application.paint();
+
+        //builder pattern
+        Demo.runBuilder();
     }
 
 
