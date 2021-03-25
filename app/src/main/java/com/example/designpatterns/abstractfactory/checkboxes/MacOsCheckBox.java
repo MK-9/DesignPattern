@@ -1,4 +1,4 @@
-package com.example.designpatterns.checkboxes;
+package com.example.designpatterns.abstractfactory.checkboxes;
 
 public class MacOsCheckBox implements CheckBox {
     @Override

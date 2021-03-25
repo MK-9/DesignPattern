@@ -1,4 +1,4 @@
-package com.example.designpatterns.buttons;
+package com.example.designpatterns.abstractfactory.buttons;
 
 public class WindowsButton implements Button {
     @Override
